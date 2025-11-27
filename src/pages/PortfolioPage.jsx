@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Github, Filter } from 'lucide-react';
+import { ExternalLink, Github, Filter, Award } from 'lucide-react';
 
 const PortfolioPage = () => {
   const [activeFilter, setActiveFilter] = useState('All');
