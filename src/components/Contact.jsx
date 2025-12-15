@@ -45,13 +45,13 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Call Us',
-      detail: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      detail: '+91 93056 48179',
+      link: 'tel:+919305648179'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Visit Us',
-      detail: '123 Tech Street, Silicon Valley, CA 94025',
+      detail: 'Lucknow, Uttar Pradesh, India',
       link: '#'
     }
   ];

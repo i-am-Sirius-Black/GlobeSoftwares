@@ -23,7 +23,7 @@ const ContactPage = () => {
               Let's Talk
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Have a project in mind? We'd love to hear from you. Get in touch and let's make something amazing together.
+              Have a project in mind? We'd love to hear from you. Contact us and let's make something amazing together.
             </p>
           </div>
         </div>
@@ -38,14 +38,14 @@ const ContactPage = () => {
                 <MapPin className="w-6 h-6" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Visit Us</h3>
-              <p className="text-gray-600 text-sm">123 Tech Street, Silicon Valley, CA 94025</p>
+              <p className="text-gray-600 text-sm">Lucknow, Uttar Pradesh, India</p>
             </div>
             <div className="bg-purple-50 p-6 rounded-xl text-center">
               <div className="inline-flex p-3 bg-purple-600 text-white rounded-full mb-4">
                 <Phone className="w-6 h-6" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-              <p className="text-gray-600 text-sm">+1 (555) 123-4567</p>
+              <p className="text-gray-600 text-sm">+91 93056 48179</p>
             </div>
             <div className="bg-pink-50 p-6 rounded-xl text-center">
               <div className="inline-flex p-3 bg-pink-600 text-white rounded-full mb-4">
@@ -73,7 +73,7 @@ const ContactPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639290102845!2d-122.08624968469247!3d37.38605097982633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sSilicon%20Valley!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.675635503578!2d80.9461593148836!3d26.84669398315809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2b0d6b8b1b1%3A0x6d8e8e8e8e8e8e8e!2sLucknow%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1702732800000!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
