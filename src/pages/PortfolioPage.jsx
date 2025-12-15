@@ -8,95 +8,95 @@ const PortfolioPage = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Pharmacy Management System',
       category: 'E-Commerce',
-      description: 'A full-featured online shopping platform with payment integration, inventory management, real-time analytics, and multi-vendor support.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=600&auto=format&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
+      description: 'A robust pharmacy management platform for retail chains, featuring prescription processing, inventory and supplier management, sales analytics, and regulatory compliance. Built for scalability and security to streamline pharmacy operations.',
+      image: 'https://images.unsplash.com/photo-1642055514517-7b52288890ec?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      tags: ['.NET', 'ASP.NET', 'SQL Server', 'Azure', 'Bootstrap'],
       color: 'bg-blue-500',
-      client: 'RetailCorp Inc.',
-      duration: '6 months'
-    },
-    {
-      title: 'Healthcare Management System',
-      category: 'Custom Software',
-      description: 'Comprehensive hospital management software with patient records, appointment scheduling, billing, and telemedicine features.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&auto=format&fit=crop',
-      tags: ['Python', 'Django', 'PostgreSQL', 'AWS', 'Docker'],
-      color: 'bg-green-500',
-      client: 'MediCare Solutions',
+      client: 'PharmaPlus Group',
       duration: '8 months'
     },
-    {
-      title: 'Food Delivery App',
-      category: 'Mobile App',
-      description: 'Real-time food ordering and delivery application with GPS tracking, multiple payment options, and restaurant management.',
-      image: 'https://images.unsplash.com/photo-1526367790999-0150786686a2?w=600&auto=format&fit=crop',
-      tags: ['React Native', 'Firebase', 'Maps API', 'Push Notifications'],
-      color: 'bg-orange-500',
-      client: 'FoodHub',
-      duration: '5 months'
-    },
-    {
-      title: 'Real Estate Portal',
-      category: 'Web Development',
-      description: 'Property listing platform with advanced search filters, virtual tours, agent management, and CRM integration.',
-      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format&fit=crop',
-      tags: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind', 'Vercel'],
-      color: 'bg-purple-500',
-      client: 'PropertyPro',
-      duration: '4 months'
-    },
-    {
-      title: 'Financial Analytics Dashboard',
-      category: 'Data Visualization',
-      description: 'Interactive dashboard for tracking investments, market trends, portfolio performance with real-time data updates.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop',
-      tags: ['Vue.js', 'D3.js', 'Express', 'MySQL', 'WebSocket'],
-      color: 'bg-indigo-500',
-      client: 'FinTech Solutions',
-      duration: '5 months'
-    },
-    {
-      title: 'Fitness Tracking App',
-      category: 'Mobile App',
-      description: 'Complete fitness solution with workout plans, nutrition tracking, progress analytics, and social features.',
-      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop',
-      tags: ['Flutter', 'Dart', 'Firebase', 'ML Kit', 'HealthKit'],
-      color: 'bg-pink-500',
-      client: 'FitLife',
-      duration: '6 months'
-    },
-    {
-      title: 'Educational Platform',
-      category: 'Web Development',
-      description: 'Online learning management system with video courses, quizzes, progress tracking, and certification.',
-      image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'AWS S3'],
-      color: 'bg-cyan-500',
-      client: 'EduTech',
-      duration: '7 months'
-    },
-    {
-      title: 'Inventory Management System',
-      category: 'Custom Software',
-      description: 'Enterprise-level inventory tracking with warehouse management, supplier integration, and automated ordering.',
-      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&auto=format&fit=crop',
-      tags: ['Angular', 'Java Spring', 'PostgreSQL', 'Kubernetes'],
-      color: 'bg-teal-500',
-      client: 'LogiCorp',
-      duration: '9 months'
-    },
-    {
-      title: 'Social Media Platform',
-      category: 'Web Development',
-      description: 'Professional networking platform with messaging, groups, events, and content sharing features.',
-      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&auto=format&fit=crop',
-      tags: ['React', 'GraphQL', 'PostgreSQL', 'Redis', 'Elasticsearch'],
-      color: 'bg-blue-600',
-      client: 'ConnectHub',
-      duration: '10 months'
-    }
+    // {
+    //   title: 'Healthcare Management System',
+    //   category: 'Custom Software',
+    //   description: 'Comprehensive hospital management software with patient records, appointment scheduling, billing, and telemedicine features.',
+    //   image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&auto=format&fit=crop',
+    //   tags: ['Python', 'Django', 'PostgreSQL', 'AWS', 'Docker'],
+    //   color: 'bg-green-500',
+    //   client: 'MediCare Solutions',
+    //   duration: '8 months'
+    // },
+    // {
+    //   title: 'Food Delivery App',
+    //   category: 'Mobile App',
+    //   description: 'Real-time food ordering and delivery application with GPS tracking, multiple payment options, and restaurant management.',
+    //   image: 'https://images.unsplash.com/photo-1526367790999-0150786686a2?w=600&auto=format&fit=crop',
+    //   tags: ['React Native', 'Firebase', 'Maps API', 'Push Notifications'],
+    //   color: 'bg-orange-500',
+    //   client: 'FoodHub',
+    //   duration: '5 months'
+    // },
+    // {
+    //   title: 'Real Estate Portal',
+    //   category: 'Web Development',
+    //   description: 'Property listing platform with advanced search filters, virtual tours, agent management, and CRM integration.',
+    //   image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format&fit=crop',
+    //   tags: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind', 'Vercel'],
+    //   color: 'bg-purple-500',
+    //   client: 'PropertyPro',
+    //   duration: '4 months'
+    // },
+    // {
+    //   title: 'Financial Analytics Dashboard',
+    //   category: 'Data Visualization',
+    //   description: 'Interactive dashboard for tracking investments, market trends, portfolio performance with real-time data updates.',
+    //   image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop',
+    //   tags: ['Vue.js', 'D3.js', 'Express', 'MySQL', 'WebSocket'],
+    //   color: 'bg-indigo-500',
+    //   client: 'FinTech Solutions',
+    //   duration: '5 months'
+    // },
+    // {
+    //   title: 'Fitness Tracking App',
+    //   category: 'Mobile App',
+    //   description: 'Complete fitness solution with workout plans, nutrition tracking, progress analytics, and social features.',
+    //   image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop',
+    //   tags: ['Flutter', 'Dart', 'Firebase', 'ML Kit', 'HealthKit'],
+    //   color: 'bg-pink-500',
+    //   client: 'FitLife',
+    //   duration: '6 months'
+    // },
+    // {
+    //   title: 'Educational Platform',
+    //   category: 'Web Development',
+    //   description: 'Online learning management system with video courses, quizzes, progress tracking, and certification.',
+    //   image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&auto=format&fit=crop',
+    //   tags: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'AWS S3'],
+    //   color: 'bg-cyan-500',
+    //   client: 'EduTech',
+    //   duration: '7 months'
+    // },
+    // {
+    //   title: 'Inventory Management System',
+    //   category: 'Custom Software',
+    //   description: 'Enterprise-level inventory tracking with warehouse management, supplier integration, and automated ordering.',
+    //   image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&auto=format&fit=crop',
+    //   tags: ['Angular', 'Java Spring', 'PostgreSQL', 'Kubernetes'],
+    //   color: 'bg-teal-500',
+    //   client: 'LogiCorp',
+    //   duration: '9 months'
+    // },
+    // {
+    //   title: 'Social Media Platform',
+    //   category: 'Web Development',
+    //   description: 'Professional networking platform with messaging, groups, events, and content sharing features.',
+    //   image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&auto=format&fit=crop',
+    //   tags: ['React', 'GraphQL', 'PostgreSQL', 'Redis', 'Elasticsearch'],
+    //   color: 'bg-blue-600',
+    //   client: 'ConnectHub',
+    //   duration: '10 months'
+    // }
   ];
 
   const filteredProjects = activeFilter === 'All' 
@@ -113,7 +113,7 @@ const PortfolioPage = () => {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full mb-6 font-semibold shadow-lg">
+            <div className="inline-block bg-linear-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full mb-6 font-semibold shadow-lg">
               <Award className="w-4 h-4 inline mr-2" />
               150+ Successful Projects
             </div>

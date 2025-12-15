@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const stats = [
-    { number: '150+', label: 'Projects Completed', icon: <Award className="w-6 h-6" /> },
-    { number: '50+', label: 'Happy Clients', icon: <Users className="w-6 h-6" /> },
-    { number: '28+', label: 'Team Members', icon: <TrendingUp className="w-6 h-6" /> },
-    { number: '5+', label: 'Years Experience', icon: <Shield className="w-6 h-6" /> }
+    { number: '5+', label: 'Projects Delivered', icon: <Award className="w-6 h-6" /> },
+    { number: '3+', label: 'Happy Clients', icon: <Users className="w-6 h-6" /> },
+    { number: '8+', label: 'Team Members', icon: <TrendingUp className="w-6 h-6" /> },
+    { number: 'Founded 2025', label: 'Year Started', icon: <Shield className="w-6 h-6" /> }
   ];
 
   const featuredServices = [
@@ -24,7 +24,17 @@ const Home = () => {
       icon: <Users className="w-10 h-10" />,
       title: 'Custom Software',
       description: 'Tailored enterprise solutions'
-    }
+    },
+    {
+      icon: <Zap className="w-10 h-10" />,
+      title: '3D Printing',
+      description: 'Professional 3D printing services for prototypes and products'
+    },
+    // {
+    //   icon: <Star className="w-10 h-10" />,
+    //   title: '3D Model Sales',
+    //   description: 'High-quality 3D models for sale and download'
+    // }
   ];
 
   return (
@@ -39,16 +49,15 @@ const Home = () => {
             </div>
             
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 leading-tight mb-6">
-              Build Better
+              Your Digital Journey
               <br />
               <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">
-                Digital Products
+                Starts Here
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12">
-              We transform ideas into powerful digital solutions. From web to mobile, 
-              we bring your vision to life with cutting-edge technology.
+              GlobeSoftwares is a new team of passionate technologists, ready to help you launch and grow with modern digital solutions. We may be new, but we're driven, skilled, and focused on delivering real results for our clients.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -88,10 +97,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              What We Do Best
+              What We Offer
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive digital solutions for modern businesses
+              Digital services for startups, small businesses, and anyone ready to grow. Now offering 3D printing and 3D model sales!
             </p>
           </div>
           
@@ -131,47 +140,47 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Why Choose GlobeSoftwares?
-              </h2>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                    <CheckCircle2 className="w-5 h-5 text-white" />
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                  Why Work With Us?
+                </h2>
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                      <CheckCircle2 className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Fresh Perspective</h3>
+                      <p className="text-gray-600">We bring new ideas and energy to every project.</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
-                    <p className="text-gray-600">Highly skilled professionals with years of industry experience</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                      <CheckCircle2 className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Agile & Responsive</h3>
+                      <p className="text-gray-600">Quick to adapt, easy to reach, and focused on your needs.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4">
+                    <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                      <CheckCircle2 className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Honest Communication</h3>
+                      <p className="text-gray-600">We value transparency and keep you in the loop at every step.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4">
+                    <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                      <CheckCircle2 className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Driven to Grow</h3>
+                      <p className="text-gray-600">We're building our reputation by delivering great results for every client.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                    <CheckCircle2 className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Delivery</h3>
-                    <p className="text-gray-600">On-time project completion with rigorous quality assurance</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                    <CheckCircle2 className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">24/7 Support</h3>
-                    <p className="text-gray-600">Dedicated support team available whenever you need assistance</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                    <CheckCircle2 className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Competitive Pricing</h3>
-                    <p className="text-gray-600">Best value for money with transparent, flexible pricing</p>
-                  </div>
-                </div>
-              </div>
               <Link
                 to="/about"
                 className="inline-flex items-center space-x-2 mt-8 text-blue-600 font-semibold text-lg hover:space-x-3 transition-all"
@@ -199,68 +208,21 @@ const Home = () => {
               What Our Clients Say
             </h2>
             <p className="text-xl text-gray-600">
-              Don't just take our word for it
+              We're just getting started—be our next success story!
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-linear-to-br from-blue-50 to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-center space-x-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">
-                "GlobeSoftwares transformed our business with their innovative solutions. The team's expertise and dedication exceeded all expectations."
-              </p>
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
-                  JD
-                </div>
-                <div>
-                  <div className="font-bold text-gray-900">John Davis</div>
-                  <div className="text-sm text-gray-600">CEO, TechCorp</div>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-linear-to-br from-blue-50 to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all text-center col-span-3 md:col-span-1 md:col-start-2">
+                <p className="text-gray-700 mb-6 italic">
+                  "Your feedback could be here! We're eager to deliver our best work and earn your testimonial."
+                </p>
+                <div className="flex items-center justify-center">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                    ?
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="bg-linear-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-center space-x-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">
-                "Outstanding service and exceptional quality. They delivered our project on time and within budget. Highly recommend!"
-              </p>
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-                  SL
-                </div>
-                <div>
-                  <div className="font-bold text-gray-900">Sarah Lee</div>
-                  <div className="text-sm text-gray-600">Founder, StartupHub</div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-linear-to-br from-pink-50 to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all">
-              <div className="flex items-center space-x-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-6 italic">
-                "Professional, efficient, and incredibly talented. Working with GlobeSoftwares was a game-changer for our company."
-              </p>
-              <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center text-white font-bold">
-                  MJ
-                </div>
-                <div>
-                  <div className="font-bold text-gray-900">Michael Johnson</div>
-                  <div className="text-sm text-gray-600">CTO, InnovateCo</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
