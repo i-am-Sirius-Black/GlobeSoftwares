@@ -87,11 +87,11 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blog" className="hover:text-blue-500 transition-colors">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/careers" className="hover:text-blue-500 transition-colors">
                   Careers
